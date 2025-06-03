@@ -9,7 +9,10 @@ const VideoSection = () => {
         autoPlay
         muted
         loop
-      ></video>
+        src="https://sample-videos.com/zip/10/mp4/SampleVideo_1280x720_1mb.mp4"
+      >
+        Ваш браузер не поддерживает воспроизведение видео.
+      </video>
     </div>
   );
 };
