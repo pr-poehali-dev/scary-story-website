@@ -9,13 +9,7 @@ const VideoSection = () => {
         autoPlay
         muted
         loop
-      >
-        <source
-          src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-          type="video/mp4"
-        />
-        Ваш браузер не поддерживает видео.
-      </video>
+      ></video>
     </div>
   );
 };
